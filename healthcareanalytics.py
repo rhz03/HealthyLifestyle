@@ -381,7 +381,7 @@ elif menu_id=='Overview':
 #st.markdown("<h3 style='text-align: center; color: blue;'>Sunshine Hours: Provide safe and well-maintained recreational areas, parks, and green spaces. Promote the benefits of sunlight exposure for overall well-being.</h1>", unsafe_allow_html=True)
  with col4:
   # Animation 4 for Sunshine Hours
-  lottie_water = load_lottiefile("/Users/macbook/Desktop/sun.json")
+  lottie_water = load_lottiefile("sun.json")
   st_lottie(lottie_water)
   st.caption("""
      <div>

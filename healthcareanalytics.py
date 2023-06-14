@@ -72,7 +72,7 @@ if menu_id=="Introduction":
  else:
     # Display a message
     st.write("")
- st.image('/Users/macbook/Desktop/png-clipart-ecg-and-healthy-living-ecg-healthy-lifestyle.png')
+ st.image('png-clipart-ecg-and-healthy-living-ecg-healthy-lifestyle.png')
 elif menu_id=='map':
   st.title('Correlation Matrix Analysis 📊')
   data = data = pd.read_csv("healthy_lifestyle_city_2021 copy.csv")

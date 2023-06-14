@@ -338,7 +338,7 @@ elif menu_id=='Overview':
 
  with col1:
     # Animation 1 for Obesity
-    lottie_obesity = load_lottiefile("/Users/macbook/Desktop/obesity.json")
+    lottie_obesity = load_lottiefile("obesity.json")
     st_lottie(lottie_obesity)
     st.caption("""
         <div>
@@ -352,7 +352,7 @@ elif menu_id=='Overview':
 
  with col2:
     # Animation 2 for Happiness Level
-     lottie_happiness = load_lottiefile("/Users/macbook/Desktop/happ.json")
+     lottie_happiness = load_lottiefile("happ.json")
      st_lottie(lottie_happiness)
      st.caption("""
         <div>
@@ -367,7 +367,7 @@ elif menu_id=='Overview':
 
  with col3:
     # Animation 3 for Cost of Bottle of Water
-     lottie_water = load_lottiefile("/Users/macbook/Desktop/water.json")
+     lottie_water = load_lottiefile("water.json")
      st_lottie(lottie_water)
      st.caption("""
         <div>

@@ -62,7 +62,7 @@ if menu_id=="Introduction":
 
 
 # Load the dataset (replace 'your_dataset.csv' with the actual filename)
- data = data = pd.read_csv("/Users/macbook/Desktop/rim zeaiter streamlit /healthy_lifestyle_city_2021 copy.csv")
+ data = data = pd.read_csv("healthy_lifestyle_city_2021 copy.csv")
  # Display a message
  st.markdown('<p style="color: green;"><strong>Click the button to display the data</strong></p>', unsafe_allow_html=True)
  #st.dataframe(data.head())
@@ -75,7 +75,7 @@ if menu_id=="Introduction":
  st.image('/Users/macbook/Desktop/png-clipart-ecg-and-healthy-living-ecg-healthy-lifestyle.png')
 elif menu_id=='map':
   st.title('Correlation Matrix Analysis 📊')
-  data = data = pd.read_csv("/Users/macbook/Desktop/rim zeaiter streamlit /healthy_lifestyle_city_2021 copy.csv")
+  data = data = pd.read_csv("healthy_lifestyle_city_2021 copy.csv")
 
 
 # Page 2.2: Life Expectancy
@@ -131,7 +131,7 @@ elif menu_id == "Rank & Life Expectancy":
 )
 
     st.header('Rank🥇')
-    df= pd.read_csv("/Users/macbook/Desktop/rim zeaiter streamlit /healthy_lifestyle_city_2021 copy.csv")
+    df= pd.read_csv("healthy_lifestyle_city_2021 copy.csv")
 
 
 # Sort DataFrame by Rank in ascending order
@@ -163,7 +163,7 @@ elif menu_id == "Rank & Life Expectancy":
     st.plotly_chart(fig6)
     st.header("Life Expectancy")
    
-    data= pd.read_csv("/Users/macbook/Desktop/rim zeaiter streamlit /healthy_lifestyle_city_2021 copy.csv")
+    data= pd.read_csv("healthy_lifestyle_city_2021 copy.csv")
 
     # Available cities
     available_cities = data['City'].unique()
@@ -242,7 +242,7 @@ elif menu_id=="Cities":
  
  
  st.markdown('<h1 style="color: green;">Top 5 cities</h1>', unsafe_allow_html=True)
- data = data = pd.read_csv("/Users/macbook/Desktop/rim zeaiter streamlit /healthy_lifestyle_city_2021 copy.csv")
+ data = data = pd.read_csv("healthy_lifestyle_city_2021 copy.csv")
 
 # Option to select bars to display
  columns = data.columns[2:]
@@ -281,7 +281,7 @@ elif menu_id=="Cities":
 
  st.markdown('<h1 style="color: green;">Least 5 cities</h1>', unsafe_allow_html=True)
  # Get the column names from the DataFrame
- data = data = pd.read_csv("/Users/macbook/Desktop/rim zeaiter streamlit /healthy_lifestyle_city_2021 copy.csv")
+ data = data = pd.read_csv("healthy_lifestyle_city_2021 copy.csv")
 
 # Option to select bars to display
  columnss = data.columns[2:]
